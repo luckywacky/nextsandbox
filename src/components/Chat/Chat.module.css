@@ -1,0 +1,23 @@
+.chat {
+  padding: 50px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.message {
+  max-width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.incoming {
+  align-self: flex-start;
+  background-color: lightblue;
+}
+
+.outgoing {
+  align-self: flex-end;
+  background-color: lightsalmon;
+}
